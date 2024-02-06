@@ -24,7 +24,7 @@ import plotly.figure_factory as ff
 import plotly.graph_objects as go
 # 1. DATA INGESTION ----------------------------------------------------------------------------------------------------------------
 
-os.chdir(r"C:\Users\User\OneDrive - Università degli Studi di Verona\1. PROGRAMMING\Esame")
+os.chdir(r"Your_Local_Repo_Archive") # Replace with your directory
 os.listdir()
 
 
