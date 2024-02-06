@@ -1,5 +1,5 @@
 # Write this instruction in your terminal:
-# streamlit run "c:/Users/User/OneDrive - Università degli Studi di Verona/1. PROGRAMMING/Esame/exam.py"      
+# streamlit run "c:..."      # Link to your python File
 import os
 import zipfile
 import csv
