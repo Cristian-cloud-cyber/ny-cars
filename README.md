@@ -3,7 +3,7 @@ As you can see, this is my project for the exam of Programming I did.
 If you're going to see from which site I got my original data, you can see into:  
 https://www.kaggle.com/code/aldhanekadev/nyc-cars-analysis/notebook
 ## - About Dataset
-You have access to two datasets: one exclusively containing car ratings, and the other containing detailed car features. These datasets provide an opportunity to work with real data, enabling you to practice various data analytics techniques such as data visualization, regression analysis for predicting prices, and classification tasks such as brand classification.
+You have access to two datasets: one exclusively containing car ratings, while the other one contais detailed car features. These datasets provide an opportunity to work with real data, enabling you to practice various data analytics techniques such as data visualization, regression analysis for predicting prices, and classification tasks such as brand classification.
 
 ## - What's important?
 Agreeing with these date, we assume we have a large work to do on elaboration and cleaning of a great set of informations. In addition, these 2 dataframes are going to be unified to get all data integrated to a common column. 
