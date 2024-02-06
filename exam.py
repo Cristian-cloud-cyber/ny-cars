@@ -1,3 +1,5 @@
+# Write this instruction in your terminal:
+# streamlit run "c:/Users/User/OneDrive - Università degli Studi di Verona/1. PROGRAMMING/Esame/exam.py"      
 import os
 import zipfile
 import csv
@@ -21,7 +23,6 @@ import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
 # 1. DATA INGESTION ----------------------------------------------------------------------------------------------------------------
-import os
 
 os.chdir(r"C:\Users\User\OneDrive - Università degli Studi di Verona\1. PROGRAMMING\Esame")
 os.listdir()
@@ -634,7 +635,7 @@ from scipy.stats import gaussian_kde
 
 #-------------------------------------------------------------------
 # Let's compare Used and New cars for Money, we are using Kernel ditribution
-st.warning("Now, we want to see these data from another prospective, but to do that we need to see them inntroducing a Kernel distribution graph that can normile data as we need.")
+st.warning("Now, we want to see these data from another prospective, but to do that we need to see them introducing a Kernel distribution graph that can normalize data as we neee to compare different distributions.")
 
 used_cars = ny_cars[ny_cars['new&used'] == 'Used']['money']
 new_cars = ny_cars[ny_cars['new&used'] == 'New']['money']
