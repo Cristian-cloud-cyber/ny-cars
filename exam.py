@@ -697,7 +697,6 @@ st.info("Let's say that our data are quite weird in 2013, as we can describe it 
 # # Visualizza il grafico in Streamlit
 # st.pyplot(plt.gcf())
 
-# streamlit run "c:/Users/User/OneDrive - Università degli Studi di Verona/1. PROGRAMMING/Esame/exam.py"
 
 
 # BAR PLOT FOR COMPARISON IN FUEL TYPES--------------------------------------------------------------------------------
@@ -1045,4 +1044,4 @@ st.plotly_chart(fig, use_container_width=True)
 st.info("We chose to get only 2 model as a Linear Regression Model and an ARIMA model.")
 
 # Write this instruction in your terminal:
-# streamlit run "c:/Users/User/OneDrive - Università degli Studi di Verona/1. PROGRAMMING/Esame/exam.py"         
+# streamlit run "c:..."         #Link to our python file
