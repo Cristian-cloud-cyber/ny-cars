@@ -230,9 +230,9 @@ ny_cars_copy['Year'] = ny_cars_copy['Year'].astype(int)
 # print("These are the missing values for our Merge= ",ny_cars_copy['Check'].value_counts().get('False'))
 # print("Are we ready for Merging? ")
 if ny_cars_copy['Check'].value_counts().get('True')==ny_cars_copy.shape[0]:
-    print ("YES!")
+    print ("YES! We can Marge")
 else:
-    print("NOT YET")
+    print("Merge? NOT YET")
     ny_cars_copy[ny_cars_copy['Check'] == 'False']
 
 # Let's Merge our DFs ---------------------------
