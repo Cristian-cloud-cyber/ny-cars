@@ -27,7 +27,7 @@ import plotly.graph_objects as go
 os.chdir(r"Your_Local_Repo_Archive") # Replace with your directory
 os.listdir()
 
-
+# To not touch origin data we have to get into our achive zip file and gat all the information in a special way:
 # opening the archive for reading
 with zipfile.ZipFile('./archive.zip', 'r') as archivio:
     # opening the first csv file within the archive and saving to a DataFrame.
