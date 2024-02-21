@@ -46,7 +46,9 @@ cars_rates_copy=cars_rates.copy()
 cars_rates_copy['Brand'] = cars_rates_copy['Brand'].str.upper()
 cars_rates_copy['Model'] = cars_rates_copy['Model'].str.upper()
 cars_rates_copy['Model'] = cars_rates_copy['Model'].str.slice(0,-1)
+# To create a new column joining other column values in one, as a concat function in Excel
 cars_rates_copy['NAME']= cars_rates_copy[['Year', 'Brand', 'Model',]].apply(lambda row: ' '.join(row.values.astype(str)), axis=1)
+# Now we are going to place this new column in the right place, and not at the right
 cars_rates_copy = cars_rates_copy[['Car_name', 'NAME'] + [col for col in cars_rates_copy.columns if col not in ['Car_name', 'NAME']]]
 # print("Information about Cars Rates Dataframe",cars_rates.info())
 # print("Description about Cars Rates Dataframe's quantitative variables",cars_rates.describe().T)
